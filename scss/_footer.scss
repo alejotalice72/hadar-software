@@ -1,0 +1,38 @@
+footer {
+    padding-top: 1rem;
+    -webkit-box-shadow: 0px -11px 22px -3px rgba(0,0,0,0.22); 
+    box-shadow: 0px -11px 22px -3px rgba(0,0,0,0.22);
+    border-top: double 12px black;
+    h3 {
+        font-family: $hadar-font;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    ul {
+        list-style-type: square;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+            color: rgb(45, 114, 244);
+        }
+    }
+    i {
+        font-size: 1.5rem;
+        color: black;
+        &:hover {
+            color: rgb(45, 114, 244);
+        }
+    }
+    .footer__title {
+        display: block;
+        font-size: 1.4rem;
+        font-weight: bold;
+        font-family: $hadar-font;
+    }
+    .footer__icon {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}

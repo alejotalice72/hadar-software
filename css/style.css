@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: hadar-font;
+  src: url("../font/bank-gothic-light-bt.ttf");
+}
+header {
+  background-color: #fff;
+}
+header ul {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-family: "Varta", sans-serif;
+  font-weight: bold;
+}
+header li {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+.nav__img {
+  width: 100%;
+  height: 4rem;
+}
+
+footer {
+  padding-top: 1rem;
+  -webkit-box-shadow: 0px -11px 22px -3px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px -11px 22px -3px rgba(0, 0, 0, 0.22);
+  border-top: double 12px black;
+}
+footer h3 {
+  font-family: "hadar-font";
+  font-weight: bold;
+  font-size: 2rem;
+}
+footer ul {
+  list-style-type: square;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  color: rgb(45, 114, 244);
+}
+footer i {
+  font-size: 1.5rem;
+  color: black;
+}
+footer i:hover {
+  color: rgb(45, 114, 244);
+}
+footer .footer__title {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: "hadar-font";
+}
+footer .footer__icon {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.hero {
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
