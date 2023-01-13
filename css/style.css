@@ -24,8 +24,11 @@ header li {
 header a:hover {
   text-decoration: underline;
 }
-
-.nav__img {
+header .dropdown-item {
+  font-size: 1.1rem;
+  font-family: "varta", sans-serif;
+}
+header .nav__img {
   width: 100%;
   height: 4rem;
 }
@@ -91,7 +94,15 @@ footer .footer__nosotros {
 }
 
 .hero {
+  background-image: url("../img/hadar-hero-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
+}
+
+.us {
+  padding-top: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
