@@ -39,10 +39,15 @@ footer {
 footer h3 {
   font-family: "hadar-font";
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 footer ul {
-  list-style-type: square;
+  padding-left: 0;
+  list-style-type: none;
+}
+footer li {
+  margin: 1rem;
+  font-size: 1.2rem;
 }
 footer a {
   text-decoration: none;
@@ -52,6 +57,7 @@ footer a:hover {
   color: rgb(45, 114, 244);
 }
 footer i {
+  margin: 1rem;
   font-size: 1.5rem;
   color: black;
 }
@@ -60,13 +66,28 @@ footer i:hover {
 }
 footer .footer__title {
   display: block;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: bold;
   font-family: "hadar-font";
 }
 footer .footer__icon {
   margin-right: 2rem;
   margin-left: 2rem;
+}
+footer .footer__pagina__link {
+  font-size: 1rem;
+  color: rgb(91, 91, 91);
+}
+footer .footer__pagina__link:hover {
+  color: black;
+}
+footer .footer__nosotros {
+  display: none;
+}
+@media (min-width: 768px) {
+  footer .footer__nosotros {
+    display: initial;
+  }
 }
 
 .hero {
