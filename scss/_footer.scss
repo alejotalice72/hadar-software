@@ -55,13 +55,29 @@ footer {
             display: initial;
         }
     }
-    .bubble {
+}
+.bubble {
+    i {
+        color: white;
+        background: #25d366;
         position: fixed;
-        bottom: 40px;
-        right: 40px;
-        .bubble__img {
-            height: 4rem;
-            width: 4rem;
+        bottom: 20px;
+        right: 20px;
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 100%;
+        animation-name: pulse;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+
+    }
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+        }
+        80% {
+            box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
         }
     }
 }
