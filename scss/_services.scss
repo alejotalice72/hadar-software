@@ -3,10 +3,23 @@
     height: 100vh;
 }
 .servicio-tecnico {
-    background-color: red;
+    background-image: url('../img/hadar-circuit-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
 }
 .desarrollo-software {
     background-color: green;
     height: 100vh;
+}
+
+@media (min-width:768px) {
+    .servicio-tecnico {
+        background-image: url('../img/hadar-circuit-bg-desktop.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
 }

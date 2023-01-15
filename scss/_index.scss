@@ -11,7 +11,7 @@
     p {
         font-size: 1rem;
     }
-    h3 {
+    h2 {
         font-family: $hadar-font;
         font-size: 2.5rem;
     }
@@ -20,25 +20,25 @@
             font-size: 1.2rem;
         }
     }
-}
-.btn {
-    flex: 1 1 auto;
-    margin: 10px;
-    padding: 0.5rem;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: #fff;
-    font-weight: bold;
-   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    font-size: 1rem;
-    &:hover {
-        color: #fdf7ac;
+    .btn {
+        flex: 1 1 auto;
+        margin: 10px;
+        padding: 0.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: #fff;
+        font-weight: bold;
+       /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        font-size: 1rem;
+        &:hover {
+            color: #fdf7ac;
+        }
     }
-}
-.btn-2 {
-    background-image: linear-gradient(to right, #f75fcc 0%, #5f8ddb 51%, #d07db9 100%);
+    .btn-2 {
+        background-image: linear-gradient(to right, #f75fcc 0%, #5f8ddb 51%, #d07db9 100%);
+    }
 }
