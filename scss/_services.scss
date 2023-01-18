@@ -1,25 +1,51 @@
+// Desarrollo Web
 .desarrollo-web {
-    background-color: aqua;
-    height: 100vh;
+    margin-top: 5rem;
+    p {
+        font-size: 5rem;
+    }
+    img {
+        height: 30rem;
+        width: 35rem;
+    }
 }
+// Servico Tecnico
 .servicio-tecnico {
-    background-image: url('../img/hadar-circuit-bg.svg');
+    margin-top: 5rem;
+    p {
+        font-size: 5rem;
+    }
+    img {
+        height: 30rem;
+        width: 40rem;
+    }
+}
+// Desarrollo Software
+.desarrollo-software {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    p {
+        font-size: 5rem;
+    }
+    img {
+        height: 30rem;
+        width: 30rem;
+    }
+}
+
+// Waves
+.wave-top {
+    height: 30vh;
+    background-image: url('../img/bg/hadar-wave-top-bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 30vh;
 }
-.desarrollo-software {
-    background-color: green;
-    height: 100vh;
-}
-
-@media (min-width:768px) {
-    .servicio-tecnico {
-        background-image: url('../img/hadar-circuit-bg-desktop.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100vh;
-    }
+.wave-bottom {
+    background-image: url('../img/bg/hadar-wave-bottom-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
 }
